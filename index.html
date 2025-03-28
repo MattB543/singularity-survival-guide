@@ -9,9 +9,9 @@
     <link rel="icon" href="./favicon.ico" type="image/x-icon" />
   </head>
   <body class="bg-gray-50 text-gray-800 font-sans mx-auto">
-    <div class="px-4 max-w-[1000px] mx-auto">
+    <div class="px-4 mx-auto">
       <!-- Header/Title Section -->
-      <header class="container mx-auto px-6 py-10">
+      <header class="container mx-auto px-6 py-10 max-w-[1000px]">
         <div class="max-w-5xl mx-auto pb-8 border-b border-gray-300">
           <div class="p-4 text-gray-800">
             <h1 class="text-3xl md:text-4xl font-bold mb-12 text-center">
@@ -60,7 +60,13 @@
               <p class="text-lg italic mt-8 text-gray-700">
                 Below is a high-level guide to help you mitigate your personal
                 risks and prepare for the (likely) bumpy road ahead.<br />Share
-                it with the people you care about.
+                it with the people you care about. Want to contribute? Join the
+                <a
+                  href="https://discord.gg/7zMNNDSxWv"
+                  class="underline"
+                  target="_blank"
+                  >Discord</a
+                >
               </p>
             </div>
           </div>
@@ -69,25 +75,26 @@
 
       <main class="container mx-auto px-6 py-12">
         <!-- Overview Section -->
-        <section class="mb-16">
-          <h2 class="text-3xl font-bold mb-4 text-center">
-            1 minute overview (share the img below)
-          </h2>
+        <section class="mb-16 max-w-[1000px] mx-auto">
+          <h2 class="text-3xl font-bold mb-4 text-center">1 minute overview</h2>
 
           <img
-            src="/survive_overview.png"
+            src="/survival_overview.png"
             alt="Singularity Survival Guide 1 minute overview"
             class="w-full h-auto max-w-[600px] mx-auto"
             width="600"
             height="450"
             loading="lazy"
           />
+          <p class="text-center text-gray-700 font-normal mt-8">
+            Share this image with the people you care about
+          </p>
         </section>
 
         <!-- Risks Section -->
-        <section class="mb-16">
+        <section class="mb-16 max-w-[1300px] mx-auto">
           <h2 class="text-3xl font-bold mb-4 text-center">
-            Risks to avoid and mitigate
+            Top risks to avoid and mitigate
           </h2>
 
           <p class="text-lg text-center mb-12">
@@ -102,8 +109,13 @@
                 🚗 Car & Pedestrian Accidents
               </h3>
               <p class="mb-4">
-                Accidents are the leading preventable causes of death and
-                serious injury.
+                The #1 daily threat most people underestimate.
+                <a
+                  href="https://chatgpt.com/share/67e6d397-f4c0-8005-8c4d-2f62d2933768"
+                  class="underline"
+                  target="_blank"
+                  >Deep research report</a
+                >
               </p>
 
               <div class="space-y-6">
@@ -123,10 +135,10 @@
                           Not wearing seatbelts (50% of vehicle occupant deaths)
                         </li>
                         <li>
-                          Nighttime walking (80% of ped deaths occur at night)
+                          Distracted driving/walking (especially phone use)
                         </li>
                         <li>
-                          Distracted driving/walking (especially phone use)
+                          Nighttime walking (80% of ped deaths occur at night)
                         </li>
                         <li>
                           Crossing without a crosswalk (75% of ped deaths)
@@ -140,15 +152,17 @@
                       <ul class="list-disc pl-6 space-y-1 text-green-800">
                         <li>Drive less when possible</li>
                         <li>Buy a car with top safety ratings</li>
-                        <li>Avoid high-risk times (night, bad weather)</li>
+                        <li>
+                          Avoid high-risk driving times (night, bad weather)
+                        </li>
                         <li>Make phones inaccessible while driving</li>
                         <li>Never drive impaired (alcohol, drugs, tired)</li>
                         <li>
                           Wear bright/reflective clothing when walking at night
                         </li>
                         <li>
-                          Always cross at marked crosswalks and make eye contact
-                          with drivers
+                          Always use crosswalks and make eye contact with
+                          drivers
                         </li>
                       </ul>
                     </div>
@@ -161,10 +175,14 @@
             <div class="border-b border-gray-200 pb-8">
               <h3 class="text-xl font-semibold mb-3">💊 Overdose</h3>
               <p class="mb-4">
-                Drug overdose is a significant preventable cause of death,
-                especially with the rise of synthetic substances.
+                Not just street drugs: a risk that crosses all demographics.
+                <a
+                  href="https://chatgpt.com/share/67e6d319-7b08-8005-98e0-6f4833884637"
+                  class="underline"
+                  target="_blank"
+                  >Deep research report</a
+                >
               </p>
-
               <div class="bg-gray-50 rounded-lg p-4">
                 <div class="grid md:grid-cols-2 gap-4">
                   <div>
@@ -172,8 +190,15 @@
                       Risk Factors:
                     </h5>
                     <ul class="list-disc pl-6 space-y-1 text-red-800">
-                      <li>Misuse of prescription drugs</li>
-                      <li>Lack of testing of recreational drugs</li>
+                      <li>Fentanyl contamination (68% of all overdoses)</li>
+                      <li>
+                        Mixing depressants (opioids, benzos, alcohol) which
+                        multiplies respiratory depression
+                      </li>
+                      <li>
+                        Using drugs alone with no one to help if overdose occurs
+                      </li>
+                      <li>Loss of tolerance after periods of abstinence</li>
                     </ul>
                   </div>
                   <div>
@@ -181,25 +206,40 @@
                       Mitigation Strategies:
                     </h5>
                     <ul class="list-disc pl-6 space-y-1 text-green-800">
-                      <li>Follow prescription guidelines strictly</li>
-                      <li>Use drug testing kits when applicable</li>
-                      <li>Keep naloxone accessible if at risk</li>
-                      <li>Never use substances alone</li>
+                      <li>Test everything not from a pharmacy for fentanyl</li>
+                      <li>
+                        Never mix depressants (pick one: opioids, benzos, OR
+                        alcohol)
+                      </li>
+                      <li>Keep naloxone (Narcan) and know how to use it</li>
+                      <li>Never use substances alone - use a buddy system</li>
+                      <li>
+                        Start with very small amounts of any substance to gauge
+                        potency
+                      </li>
+                      <li>
+                        Consider medication-assisted treatment (MAT) if at risk
+                        of opioid overdose
+                      </li>
+                      <li>Secure and properly dispose of unused medications</li>
                     </ul>
                   </div>
                 </div>
               </div>
             </div>
 
-            <!-- Risk 3 - Suicide -->
+            <!-- Risk 3 - Suicide (Updated) -->
             <div class="border-b border-gray-200 pb-8">
               <h3 class="text-xl font-semibold mb-3">🧠 Suicide</h3>
               <p class="mb-4">
-                Mental health challenges and suicidal thoughts pose a
-                significant risk that often goes unaddressed until it's too
-                late.
+                A preventable tragedy with clear warning signs.
+                <a
+                  href="https://chatgpt.com/share/67e6d84b-8750-8005-84f9-be2c935b58d2"
+                  class="underline"
+                  target="_blank"
+                  >Deep research report</a
+                >
               </p>
-
               <div class="bg-gray-50 rounded-lg p-4">
                 <div class="grid md:grid-cols-2 gap-4">
                   <div>
@@ -207,12 +247,20 @@
                       Risk Factors:
                     </h5>
                     <ul class="list-disc pl-6 space-y-1 text-red-800">
-                      <li>Untreated depression and anxiety</li>
-                      <li>Social isolation and lack of support systems</li>
                       <li>
-                        Chronic stress and overwhelming life circumstances
+                        Access to lethal means (esp firearms - 90% fatality
+                        rate)
                       </li>
-                      <li>Access to lethal means during crisis periods</li>
+                      <li>
+                        Mental health conditions (depression, bipolar, anxiety)
+                      </li>
+                      <li>Social isolation and loneliness (5× higher risk)</li>
+                      <li>Substance abuse (1 in 4 suicides involve alcohol)</li>
+                      <li>Previous suicide attempts (40× higher risk)</li>
+                      <li>Chronic pain or illness</li>
+                      <li>
+                        Acute crisis events (job loss, breakup, financial ruin)
+                      </li>
                     </ul>
                   </div>
                   <div>
@@ -220,13 +268,30 @@
                       Mitigation Strategies:
                     </h5>
                     <ul class="list-disc pl-6 space-y-1 text-green-800">
-                      <li>Seek professional mental health support</li>
-                      <li>Maintain social connections and support networks</li>
-                      <li>Practice stress management techniques</li>
                       <li>
-                        Remove access to lethal means during vulnerable periods
+                        Restrict access to lethal means (secure firearms,
+                        medications)
                       </li>
-                      <li>Know crisis hotline numbers (988 in the US)</li>
+                      <li>Treat depression and mental illness proactively</li>
+                      <li>
+                        Maintain strong social ties (have regular check-ins)
+                      </li>
+                      <li>
+                        Limit alcohol and drug use during emotional crises
+                      </li>
+                      <li>Create a safety plan with trusted contacts</li>
+                      <li>
+                        Ask directly about suicidal thoughts - it reduces risk
+                      </li>
+                      <li>Follow up consistently with at-risk individuals</li>
+                      <li>Cultivate purpose and future-oriented thinking</li>
+                      <li>
+                        Know warning signs (giving away possessions, talking
+                        about death)
+                      </li>
+                      <li>
+                        In emergencies, call 988 (US) and don't leave them alone
+                      </li>
                     </ul>
                   </div>
                 </div>
@@ -235,64 +300,107 @@
 
             <!-- Risk 4 - Violence/Homicide -->
             <div class="border-b border-gray-200 pb-8">
-              <h3 class="text-xl font-semibold mb-3">💥️ Violence</h3>
+              <h3 class="text-xl font-semibold mb-3">
+                💥️ Violence & Intentional Harm
+              </h3>
               <p class="mb-4">
-                Violence and intentional harm from others represents a
-                significant risk, particularly in certain geographical areas and
-                circumstances.
+                Situational awareness can save your life.
+                <a
+                  href="https://chatgpt.com/share/67e6e240-4ab4-8005-9b38-5a596b2d0559"
+                  class="underline"
+                  target="_blank"
+                  >Deep research report</a
+                >
               </p>
 
               <div class="bg-gray-50 rounded-lg p-4">
                 <div class="grid md:grid-cols-2 gap-4">
                   <div>
                     <h5 class="font-medium text-gray-700 mb-2">
-                      Risk Factors:
+                      Highest Risk Factors:
                     </h5>
                     <ul class="list-disc pl-6 space-y-1 text-red-800">
-                      <li>High-risk locations and situations</li>
-                      <li>Domestic violence and personal conflicts</li>
-                      <li>Property crimes turning violent</li>
-                      <li>Random acts of violence</li>
+                      <li>
+                        Intimate partner violence (33% of female homicides)
+                      </li>
+                      <li>
+                        Arguments escalating to deadly violence (20% of murders)
+                      </li>
+                      <li>
+                        Firearms in volatile relationships (5× homicide risk)
+                      </li>
+                      <li>High-crime areas, especially at night</li>
+                      <li>Being visibly distracted in public (easy target)</li>
+                      <li>Getting involved in confrontations with strangers</li>
                     </ul>
                   </div>
                   <div>
                     <h5 class="font-medium text-gray-700 mb-2">
-                      Mitigation Strategies:
+                      Highest-ROI Prevention:
                     </h5>
                     <ul class="list-disc pl-6 space-y-1 text-green-800">
-                      <li>Practice situational awareness in public</li>
-                      <li>Avoid high-crime areas, especially at night</li>
-                      <li>De-escalate conflicts when possible</li>
-                      <li>Learn basic self-defense techniques</li>
-                      <li>Seek help for domestic violence situations</li>
                       <li>
-                        Carry legal personal protection tools like pepper spray
+                        Protect yourself (weapon, pepper spray, taser, etc.)
+                      </li>
+                      <li>
+                        Exit unsafe relationships at the first sign of physical
+                        abuse
+                      </li>
+                      <li>
+                        Practice situational awareness (eyes up, scan
+                        surroundings)
+                      </li>
+                      <li>De-escalate or disengage from all confrontations</li>
+                      <li>Avoid high-risk locations and times</li>
+                      <li>
+                        If robbed, comply - possessions are replaceable, you
+                        aren't
+                      </li>
+                      <li>
+                        In public emergencies: Run if possible, hide if
+                        necessary
                       </li>
                     </ul>
                   </div>
                 </div>
               </div>
+
+              <div class="mt-4 text-sm text-gray-600 italic"></div>
             </div>
 
-            <!-- Risk 5 - Infections -->
             <div class="border-b border-gray-200 pb-8">
               <h3 class="text-xl font-semibold mb-3">🦠 Infections</h3>
               <p class="mb-4">
-                Infectious diseases can pose significant threats to health and
-                survival, from pandemics to seasonal illnesses.
+                Invisible risks with practical solutions.
+                <a
+                  href="https://chatgpt.com/share/67e707a1-de7c-8005-a3e2-b0951ceedb78"
+                  class="underline"
+                  target="_blank"
+                  >Deep research report</a
+                >
               </p>
 
               <div class="bg-gray-50 rounded-lg p-4">
                 <div class="grid md:grid-cols-2 gap-4">
                   <div>
                     <h5 class="font-medium text-gray-700 mb-2">
-                      Risk Factors:
+                      Highest Risk Factors:
                     </h5>
                     <ul class="list-disc pl-6 space-y-1 text-red-800">
-                      <li>Crowded indoor spaces with poor ventilation</li>
-                      <li>Close contact with infected individuals</li>
-                      <li>Lack of vaccination or immunity</li>
-                      <li>Poor hygiene practices</li>
+                      <li>
+                        Respiratory infections: 230,000+ US deaths annually
+                      </li>
+                      <li>
+                        Sepsis: Starts as normal infection, kills 350,000/year
+                      </li>
+                      <li>
+                        Antibiotic resistance: Already 35,000 US deaths yearly
+                      </li>
+                      <li>
+                        Foodborne illness: Hospitalizes 128,000 Americans
+                        annually
+                      </li>
+                      <li>Next pandemic: 25% chance in next decade</li>
                     </ul>
                   </div>
                   <div>
@@ -300,11 +408,24 @@
                       Mitigation Strategies:
                     </h5>
                     <ul class="list-disc pl-6 space-y-1 text-green-800">
-                      <li>Stay up-to-date on vaccinations</li>
-                      <li>Wear masks in high-risk environments</li>
-                      <li>Practice good hand hygiene</li>
-                      <li>Improve ventilation in indoor spaces</li>
-                      <li>Avoid unnecessary exposure during outbreaks</li>
+                      <li>
+                        Annual flu shot + COVID boosters (90% reduction in death
+                        risk)
+                      </li>
+                      <li>
+                        $200 HEPA filter in bedroom (cuts airborne transmission
+                        50%+)
+                      </li>
+                      <li>
+                        Cook meat to 165°F; refrigerate leftovers within 1 hour
+                      </li>
+                      <li>
+                        Stock 10 N95 masks & 1-month supplies before shortages
+                        hit
+                      </li>
+                      <li>
+                        Infections getting worse? Seek treatment immediately
+                      </li>
                     </ul>
                   </div>
                 </div>
@@ -316,41 +437,62 @@
                 ❤️ Heart Disease & Stroke
               </h3>
               <p class="mb-4">
-                Cardiovascular disease and stroke remain leading causes of death
-                , often developing silently over years before striking suddenly.
+                The #1 killer that's 80% preventable with the right tactics.
+                <a
+                  href="https://chatgpt.com/share/67e71613-0e98-8005-9823-b35cd3f8e09f"
+                  class="underline"
+                  target="_blank"
+                  >Deep research report</a
+                >
               </p>
-
               <div class="bg-gray-50 rounded-lg p-4">
                 <div class="grid md:grid-cols-2 gap-4">
                   <div>
                     <h5 class="font-medium text-gray-700 mb-2">
-                      Risk Factors:
+                      Highest Risk Factors:
                     </h5>
                     <ul class="list-disc pl-6 space-y-1 text-red-800">
-                      <li>Poor diet and lack of exercise</li>
-                      <li>High blood pressure and cholesterol</li>
-                      <li>Smoking and excessive alcohol consumption</li>
-                      <li>Chronic stress and poor sleep habits</li>
-                      <li>Family history of cardiovascular disease</li>
                       <li>
-                        Atrial fibrillation and other heart rhythm disorders
+                        Uncontrolled high blood pressure (50% of heart deaths)
+                      </li>
+                      <li>Smoking (2-4× risk, causes 25% of all CVD deaths)</li>
+                      <li>
+                        High LDL cholesterol (feeds artery-blocking plaque)
+                      </li>
+                      <li>Diabetes/prediabetes (doubles to quadruples risk)</li>
+                      <li>Abdominal obesity (2nd biggest population risk)</li>
+                      <li>Physical inactivity (damages vessels directly)</li>
+                      <li>
+                        Poor sleep (<6hrs/night raises risk significantly)
                       </li>
                     </ul>
                   </div>
                   <div>
                     <h5 class="font-medium text-gray-700 mb-2">
-                      Mitigation Strategies:
+                      Highest-ROI Prevention:
                     </h5>
                     <ul class="list-disc pl-6 space-y-1 text-green-800">
-                      <li>Adopt a heart-healthy diet (Mediterranean, DASH)</li>
-                      <li>Regular physical activity (150+ min/week)</li>
-                      <li>Regular blood pressure and cholesterol monitoring</li>
-                      <li>Avoid tobacco and limit alcohol consumption</li>
-                      <li>Prioritize quality sleep and stress management</li>
+                      <li>Quit smoking (risk drops 50% in 3-5 years)</li>
                       <li>
-                        Know the warning signs (FAST: Face, Arms, Speech, Time)
+                        Know & control your BP (each 10mmHg drop = 20% less
+                        risk)
                       </li>
-                      <li>Take prescribed medications consistently</li>
+                      <li>
+                        Mediterranean diet cuts heart attacks/strokes by 30%
+                      </li>
+                      <li>Exercise 150+ min/week (25% lower death risk)</li>
+                      <li>Take statins if high-risk (25% fewer events)</li>
+                      <li>
+                        Lose 5-10% body weight if overweight (improves all
+                        factors)
+                      </li>
+                      <li>Consider CAC scan (detects hidden plaque buildup)</li>
+                      <li>
+                        Get 7-9 hours quality sleep (reduces arterial damage)
+                      </li>
+                      <li>
+                        Know warning signs & call 911 immediately if suspected
+                      </li>
                     </ul>
                   </div>
                 </div>
@@ -360,7 +502,7 @@
         </section>
 
         <!-- Preparation Section -->
-        <section>
+        <section class="max-w-[1300px] mx-auto">
           <h2 class="text-3xl font-bold mb-8 text-center">How to prepare</h2>
           <p class="text-lg text-center mb-12">
             Essential preparations to increase your resilience and adaptability
